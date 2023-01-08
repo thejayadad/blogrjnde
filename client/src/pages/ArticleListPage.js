@@ -1,7 +1,16 @@
+import articles from "./article-content";
+import ArticlesList from "../components/ArticlesList";
 
 const ArticleListPage= () =>{
     return (
-        <h2>ArticleListPage</h2>
+      <>
+        <section>
+            <h2>Articles</h2>
+      <ArticlesList articles={articles} />
+        </section>
+
+      </>
+
     )
 }
 
